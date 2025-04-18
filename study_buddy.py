@@ -3,7 +3,7 @@ import google.generativeai as genai
 import PyPDF2
 import random
 
-genai.configure(api_key="AIzaSyDYcnpT2MpniuiszEKaaypN6EScWLuMscg")  
+genai.configure(api_key="your api here")  
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 #  SIDEBAR NAVIGATION 
